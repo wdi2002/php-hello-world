@@ -4,11 +4,12 @@ echo "<br>Please sign the below AGB:<br>";
 echo getenv("GREETINGS");
 echo "<br>";
 
---echo "Container Name: ";
---echo gethostname();
---echo "<br>";
---echo "Client IP: ";
---echo $_SERVER["REMOTE_ADDR"];
+echo "Container Name: ";
+echo gethostname();
+echo "<br>";
+echo "Client IP: ";
+echo $_SERVER["REMOTE_ADDR"];
+
 echo ""
 echo "<center>Agreement on the use of Data</center>"
 echo "<center>collected by</center>"
